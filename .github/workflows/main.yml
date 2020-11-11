@@ -40,7 +40,7 @@ jobs:
           # Checkmarx CLI Action
           cxAction: Scan
           # Checkmarx Version
-          cxVersion: 9
+          cxVersion: 9.0
           # IP address or resolvable name of CxSAST web server.
           cxServer: https://cxapactrial.checkmarx.net
           # Checkmarx Username
