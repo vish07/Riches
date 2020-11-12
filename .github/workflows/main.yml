@@ -76,7 +76,7 @@ jobs:
           # Scan will not be visible to other users.
           #cxPrivate: # optional
           # SAST Scan Report in XML format
-          cxReportXML: "reports/sast.xml"
+          cxReportXML: "/home/runner/work/Riches/Riches/cxcli/Checkmarx/Reports/reports/sast.xml"
           # SAST Scan Report in PDF format
           #cxReportPDF: # optional, default is 
           # SAST Scan Report in RTF format
