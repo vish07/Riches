@@ -118,7 +118,7 @@ jobs:
           # Trust Self-signed Certificates
           #cxTrustedCertificates: # optional
           # Github Token Secret
-          cxGithubToken: d16605e9993593fcc380f193d44406a0e1c98cdc
+          cxGithubToken: ${{ secrets.CX_GITHUB_TOKEN }}
           # Create Github Issues
           cxGithubIssues: true
           # Github Labels for Issues created
@@ -126,4 +126,4 @@ jobs:
           # Github Assignees for Issues created
           cxGithubAssignees: vish07 
           # Github Milestone for Issues created
-          #cxGithubMilestone: # optional
+          cxGithubMilestone: 1
