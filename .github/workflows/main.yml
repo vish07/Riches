@@ -118,7 +118,7 @@ jobs:
           # Trust Self-signed Certificates
           #cxTrustedCertificates: # optional
           # Github Token Secret
-          cxGithubToken: 3395d66b209ce2e978ce82216cacdc5fab400574
+          cxGithubToken: 813e2ed01c3f12682f24aaac2fe94db4e0acaff3
           # Create Github Issues
           cxGithubIssues: true
           # Github Labels for Issues created
