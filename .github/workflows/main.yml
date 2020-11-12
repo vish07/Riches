@@ -76,7 +76,7 @@ jobs:
           # Scan will not be visible to other users.
           #cxPrivate: # optional
           # SAST Scan Report in XML format
-          #cxReportXML: # optional, default is 
+          cxReportXML: "reports/sast.xml"
           # SAST Scan Report in PDF format
           #cxReportPDF: # optional, default is 
           # SAST Scan Report in RTF format
